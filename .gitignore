@@ -1,0 +1,15 @@
+# Godot-specific
+.import/
+.export/
+*.godot-export
+*.tmp
+.godot/
+export_presets.cfg
+
+# OS-specific
+.DS_Store
+Thumbs.db
+*.tmp
+
+# IDEs
+.vscode/
