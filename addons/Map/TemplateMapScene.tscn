@@ -19,6 +19,7 @@ tonemap_mode = 2
 glow_enabled = true
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_w47yd"]
+albedo_color = Color(0.999999, 0.441627, 0.148452, 1)
 
 [node name="TemplateMap" type="Node3D"]
 
@@ -150,5 +151,3 @@ script = ExtResource("4_w47yd")
 number_of_segments = 20
 rope_thickness = 0.03
 material = SubResource("StandardMaterial3D_w47yd")
-
-[node name="CSGPolygon3D" type="CSGPolygon3D" parent="Ropes"]
